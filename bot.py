@@ -100,6 +100,6 @@ async def on_message(message):
             await message.channel.send("ไม่พบบทบาทที่ต้องการในเซิร์ฟเวอร์")
 
     await client.process_commands(message)
-server_on
+server_on()
 
-client.run(os.getenv'TOKEN')
+client.run(os.getenv'(TOKEN)')
